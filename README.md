@@ -103,7 +103,7 @@ getfacl /home/agent-admin/agent-app/upload_files
 export AGENT_HOME=/home/agent-admin/agent-app
 export AGENT_PORT=15034
 export AGENT_UPLOAD_DIR="$AGENT_HOME/upload_files"
-export AGENT_KEY_PATH="$AGENT_HOME/api_keys/t_secret.key"
+export AGENT_KEY_PATH="$AGENT_HOME/api_keys"
 export AGENT_LOG_DIR=/var/log/agent-app
 ```
 
@@ -182,28 +182,97 @@ sleep 70
 tail -n 20 /home/agent-admin/agent-app/monitor.log
 ```
 
-## 5. 요구사항 점검표
+## 5. 핵심 보안·운영 개념 정리
 
-| 요구사항 | 구현·검증 근거 |
-| --- | --- |
-| SSH 포트 변경 및 root 직접 접속 차단 | `sshd -T` 결과가 `port 20022`, `permitrootlogin no`; 이미지 1 |
-| 변경 SSH 포트 LISTEN | IPv4·IPv6 `:20022` LISTEN; 이미지 2 |
-| 방화벽 최소 허용 | UFW active, `20022/tcp`와 `15034/tcp` 허용; 이미지 3 |
-| 계정·그룹 분리 | 세 계정의 보조 그룹 확인; 이미지 3 |
-| 디렉터리·ACL 분리 | `api_keys`는 `agent-core`, `upload_files`는 `agent-common` 및 기본 ACL; 이미지 4~5 |
-| Boot Sequence | 5개 점검 단계 모두 `[OK]`, `Agent READY`; 이미지 6 |
-| 프로세스·포트·방화벽 모니터링 | PID, `15034` LISTEN, UFW active와 로그 추가 확인; 이미지 7 |
-| 반복 실행 이력 | 모니터 출력 누적 확인; 이미지 8 |
+### 5.1 SSH 포트 변경과 root 원격 접속 차단
 
-## 6. 운영 시 유의 사항과 다음 개선
+기본 포트인 `22` 대신 `20022`를 사용하면 인터넷의 흔한 자동 스캔과 무차별 대입 시도가 서비스 로그에 도달하는 빈도를 줄일 수 있습니다. 다만 포트 변경은 보안을 완성하는 방법이 아니라, 키 기반 인증·방화벽·계정 권한과 함께 사용하는 **추가 방어층**입니다.
 
-- `monitor.sh`에는 `MAX_LOG_SIZE=10MB`, `MAX_LOG_FILES=10` 상수가 선언되어 있지만, 현재 저장소의 스크립트만으로는 실제 로테이션 수행까지 확인되지 않습니다. 운영 배포 전에는 `logrotate` 또는 명시적인 Bash 로테이션 로직을 추가하고, 10MB 초과·10개 보관 테스트를 남겨야 합니다.
-- 현재 `check_state`는 UFW가 비활성일 때 오류 종료합니다. 과제 요구처럼 방화벽 상태를 **경고만** 내고 CPU·메모리·디스크 수집은 계속하려면 `error_exit` 대신 `warning`을 사용하도록 조정해야 합니다.
-- 이미지 6의 Boot Sequence는 `secret.key`를 확인한다고 표시하지만, 과제 환경 변수 예시는 `t_secret.key`를 가리킵니다. 제출 전에는 제공된 실행 파일이 실제로 요구하는 파일명과 `AGENT_KEY_PATH`를 일치시켜야 합니다.
-- 현재 저장소와 캡처에는 `crontab -l` 결과가 별도 증거로 포함되어 있지 않습니다. 위 등록 방식으로 설정한 뒤 실제 1분 단위 누적 화면을 추가하면 자동 실행 요구사항을 더 명확하게 입증할 수 있습니다.
-- 초기 실행 이력에는 경로, 실행 권한, Bash 문법, UFW 권한 관련 실패가 남아 있습니다. 이 시행착오는 절대 경로 사용, 일반 계정 실행, 시작 전 포트·권한 검증이 왜 필요한지를 보여주는 자료가 되었습니다.
-- 보너스 과제인 기간별 `report.sh` 통계와 장기 보관 아카이브는 이 저장소의 검증 범위에 포함하지 않았습니다.
+`PermitRootLogin no`는 가장 강력한 계정인 root로 직접 원격 로그인하는 경로를 없앱니다. 운영자는 개인 계정으로 접속한 뒤 필요한 경우에만 `sudo`를 사용하므로, 누가 어떤 작업을 했는지 감사 로그로 추적하기 쉬워집니다. 설정과 실제 리스닝 상태는 모두 확인해야 합니다.
 
-## 7. 회고
+```bash
+sudo sshd -T | grep -E '^(port|permitrootlogin) '
+sudo ss -ltnp | grep ':20022'
+```
 
-이번 과제에서 가장 중요한 점은 설정 하나를 바꾸는 것이 아니라 **보안 설정 → 권한 경계 → 애플리케이션 검증 → 지속 모니터링 → 로그 추적**을 끊기지 않는 흐름으로 연결한 것이었습니다. 특히 공유 업로드 영역과 민감 영역을 ACL·그룹으로 분리하고, 서비스 상태를 사람이 매번 직접 보지 않아도 기록으로 남기게 만든 경험은 실제 서버 운영의 기본 단위를 이해하는 데 도움이 되었습니다.
+### 5.2 UFW의 “필요 포트만 허용” 정책
+
+이 환경에서는 UFW를 선택해 기본적으로 들어오는 연결을 차단하고, 관리용 `20022/tcp`와 애플리케이션용 `15034/tcp`만 허용합니다. 필요한 포트만 열면 실수로 설치된 서비스나 사용하지 않는 포트가 외부에 노출될 가능성을 줄일 수 있습니다. 반대로 서비스를 시작하기 전에 포트를 열어 두거나, 실제 서비스 포트와 방화벽 규칙이 다르면 장애 또는 불필요한 노출이 생길 수 있습니다.
+
+```bash
+# 원격 서버에서는 현재 SSH 연결을 유지한 채 새 포트 접속을 먼저 확인한다.
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow 20022/tcp
+sudo ufw allow 15034/tcp
+sudo ufw enable
+
+sudo ufw status verbose
+sudo ufw status numbered
+sudo ss -ltnp
+```
+
+`ufw`에는 허용 규칙만 있고 `ss`에는 해당 포트가 LISTEN 상태가 아닐 수 있으며, 그 반대도 가능합니다. 따라서 두 결과를 함께 비교해 **규칙과 실행 중인 서비스가 일치하는지** 검증합니다.
+
+### 5.3 역할 기반 계정·그룹·ACL로 디렉터리 분리
+
+`upload_files`는 여러 역할이 협업해야 하므로 `agent-common` 그룹과 setgid·기본 ACL로 새 파일에도 공동 작업 권한이 이어지게 합니다. 반면 `api_keys`와 운영 로그는 API 키와 시스템 정보가 포함될 수 있으므로 `agent-core`처럼 더 제한된 그룹만 접근하게 분리합니다.
+
+이렇게 공유 디렉터리와 보안 디렉터리를 나누면 QA 계정이 필요한 업로드 파일은 확인할 수 있지만, 키나 민감한 운영 로그까지 읽거나 수정하지는 못합니다. 이는 계정이 탈취되거나 작업자가 실수했을 때 피해 범위를 줄이는 **최소 권한 원칙**의 적용입니다.
+
+```bash
+id agent-admin
+id agent-dev
+id agent-test
+getfacl "$AGENT_HOME/upload_files"
+getfacl "$AGENT_HOME/api_keys"
+```
+
+### 5.4 환경 변수로 실행 환경 고정
+
+`AGENT_HOME`, `AGENT_PORT`, 업로드·키·로그 경로를 환경 변수로 한곳에서 관리하면 실행한 현재 디렉터리, 로그인한 사용자, 배포 위치에 따라 동작이 달라지는 문제를 줄일 수 있습니다. 코드와 스크립트가 같은 실행 계약을 사용하므로 개발·테스트·운영 환경에서도 경로와 포트를 명확히 비교할 수 있습니다.
+
+```bash
+env | grep '^AGENT_'
+test -d "$AGENT_HOME" && test -x "$AGENT_HOME/agent-app-linux-x86"
+test -d "$AGENT_UPLOAD_DIR" && test -d "$AGENT_KEY_PATH" && test -w "$AGENT_LOG_DIR"
+sudo ss -ltnp | grep ":${AGENT_PORT}"
+```
+
+위 검증은 변수 값이 설정됐는지뿐 아니라 실제 디렉터리·실행 파일·로그 쓰기 권한·리스닝 포트가 그 값과 맞는지도 확인합니다. 비밀값 자체는 환경 변수 출력이나 README에 기록하지 않습니다.
+
+### 5.5 쉘 스크립트와 로그를 이용한 상태 추적
+
+`monitor.sh`는 프로세스 존재 여부, 포트 LISTEN 상태, 방화벽 상태, CPU·메모리·디스크 사용량을 같은 시점에 수집합니다. 예를 들어 서비스 장애가 발생했을 때 시간과 함께 남은 로그를 보면 “프로세스가 먼저 종료됐는지”, “포트만 열리지 않았는지”, “디스크 부족이나 자원 급증이 있었는지”를 순서대로 좁힐 수 있습니다.
+
+점검 결과를 표준 출력으로만 보지 않고 시간 정보와 함께 로그에 추가해야, 사람이 접속하지 않은 시간대의 이상도 사후에 추적할 수 있습니다.
+
+```bash
+tail -n 50 /var/log/agent-app/monitor.log
+```
+
+### 5.6 cron 주기 실행과 로그 보존 정책
+
+crontab은 사람이 매번 명령을 실행하지 않아도 같은 점검을 정해진 주기로 수행하게 합니다. cron은 로그인 셸과 환경이 다르므로 절대 경로를 쓰고, 필요한 환경 변수는 스크립트 안에서 명시하거나 별도 환경 파일에서 불러와야 합니다.
+
+로그는 계속 쌓이면 결국 디스크를 가득 채워 새 로그를 못 쓰거나 서비스 자체가 멈출 수 있습니다. 반대로 즉시 삭제하면 장애 원인을 조사할 근거가 사라집니다. 그래서 일정 기간의 로그는 남기고, 오래된 로그는 압축한 뒤 보존 기간이 지나면 삭제하는 정책이 필요합니다. 예를 들어 아래 `logrotate` 정책은 일 단위로 교체하고 14개를 보관하며, 이전 로그를 압축합니다.
+
+```conf
+# /etc/logrotate.d/agent-app
+/var/log/agent-app/monitor.log {
+    daily
+    rotate 14
+    compress
+    missingok
+    notifempty
+    create 0640 agent-admin agent-core
+}
+```
+
+정책을 적용하기 전에는 문법을 먼저 점검하고, 적용 후에는 교체·압축된 파일이 기대한 기간만 남는지 확인합니다.
+
+```bash
+sudo logrotate -d /etc/logrotate.d/agent-app
+sudo logrotate -f /etc/logrotate.d/agent-app
+ls -lh /var/log/agent-app/
+```
