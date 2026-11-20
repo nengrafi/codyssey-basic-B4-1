@@ -85,6 +85,31 @@ check_thresholds(){
 	fi	
 }
 
+rotate_log(){
+    if [[ ! -f "$LOG_FILE" ]]; then
+        return
+    fi
+
+    local FILE_SIZE=$(stat -c%s "$LOG_FILE")
+
+    if (( FILE_SIZE >= MAX_SIZE )); then
+
+        rm -f "${LOG_FILE}.9"
+
+        for ((i=8; i>=1; i--)); do
+            if [[ -f "${LOG_FILE}.${i}" ]]; then
+                mv "${LOG_FILE}.${i}" "${LOG_FILE}.$((i+1))"
+            fi
+        done
+
+        mv "$LOG_FILE" "${LOG_FILE}.1"
+
+        touch "$LOG_FILE"
+
+        echo "[INFO] Log rotated"
+    fi
+}
+
 get_log(){
 	TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S' )
 	echo "[$TIMESTAMP] PID:$PID CPU:$CPU_USAGE% MEM:$MEM_USAGE% DISK:$DISK_USED%" >> "$AGENT_LOG_FILE"
@@ -103,6 +128,7 @@ main(){
 	get_disk_usage
 
 	check_thresholds
+	rotate_log
 	get_log
 	echo "Monitoring completed."
 }
