@@ -1,0 +1,699 @@
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: not found
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: Permission denied
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: Permission denied
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: Permission denied
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: Permission denied
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: Permission denied
+/bin/sh: 1: /home/agent-admin/agent-app/bin/monitor.sh: Permission denied
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: syntax error near unexpected token `PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 30: `	fi    PID=$(pgrep -fo "$APP_NAME")'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m, | awk '/^Mem:/ {print $2, $3}')'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: syntax error near unexpected token `<'
+/home/agent-admin/agent-app/bin/monitor.sh: line 74: `	read total used < < (free -m | awk '/^Mem:/ {print $2, $3}')'
+STARTING MONITORING.....
+[ERROR] No Process
+STARTING MONITORING.....
+[ERROR] No Process
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[ERROR] No PORT
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[ERROR] No PORT
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[ERROR] No PORT
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+sudo: I'm sorry agent-admin. I'm afraid I can't do that
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+sudo: I'm sorry agent-admin. I'm afraid I can't do that
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+sudo: I'm sorry agent-admin. I'm afraid I can't do that
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+ERROR: You need to be root to run this script
+[ERROR] Status: Inactive
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+Status: Active
+[INFO] Log appended: 
+Monitoring completed.
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+Status: Active
+[INFO] Log appended: 
+Monitoring completed.
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+Status: Active
+[INFO] Log appended: 
+Monitoring completed.
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+Status: Active
+[INFO] Log appended: /var/log/agent-app/monitor.log
+Monitoring completed.
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+Status: Active
+[INFO] Log appended: /var/log/agent-app/monitor.log
+Monitoring completed.
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+Status: Active
+[INFO] Log appended: /var/log/agent-app/monitor.log
+Monitoring completed.
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+Status: Active
+[INFO] Log appended: /var/log/agent-app/monitor.log
+Monitoring completed.
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+Status: Active
+[INFO] Log appended: /var/log/agent-app/monitor.log
+Monitoring completed.
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+Status: Active
+[INFO] Log appended: /var/log/agent-app/monitor.log
+Monitoring completed.
+STARTING MONITORING.....
+[OK] Process found (PID:8372)
+[OK] LISTENING (PORT:15034)
+Status: Active
+[INFO] Log appended: /var/log/agent-app/monitor.log
+Monitoring completed.
